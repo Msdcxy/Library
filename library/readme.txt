@@ -1,5 +1,5 @@
-git地址 ： https://github.com/Msdcxy/BaseLibrary.git
-            https://gitee.com/401328080/BaseLibrary
+git地址 ： https://github.com/Msdcxy/Library.git
+
 打包成arr命令
                     gradlew install
                     gradlew uploadArchives
@@ -11,7 +11,7 @@ git地址 ： https://github.com/Msdcxy/BaseLibrary.git
 状态栏：https: //github.com/gyf-dev/ImmersionBar
 
 版本介绍：
-1.0.0 ：增加状态栏的颜色配置，
+1.0.1 ：增加状态栏的颜色配置，
 
     覆盖颜色值
      <!-- 状态栏颜色值-->
