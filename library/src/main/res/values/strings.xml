@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="presenter_obj_is_null">Presenter is null! Do you return null in createPresenter()</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_content">操作成功</string>
+    <string name="save_success">保存成功</string>
+    <string name="edit_success">编辑成功</string>
+    <string name="approval_success">送审成功</string>
+    <string name="add_success">添加成功</string>
+</resources>

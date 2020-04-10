@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/layout_wrap_height"
+        android:layout_gravity="center"
+        android:background="@drawable/general_white_bg"
+        android:orientation="vertical">
+        <!-- 标题-->
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/layout_wrap"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="温馨提示"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+        <!--内容 -->
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/layout_wrap"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="这是对话框的内容"
+            android:textColor="@color/color_3"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/view_content_divider"
+            style="@style/VLine" />
+        <!--底部按钮-->
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            style="@style/layout_wrap_height">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/ActionButton"
+                android:background="@drawable/button_left"
+                android:text="@android:string/cancel"
+                android:textColor="@color/color_3" />
+
+            <View
+                android:id="@+id/btn_divider"
+                style="@style/HLine" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/ActionButton"
+                android:background="@drawable/button_right"
+                android:text="@android:string/ok"
+                android:textColor="@color/color_blue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

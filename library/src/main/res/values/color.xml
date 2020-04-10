@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- KProgressHUD-->
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+
+    <color name="color_bg">#F5F5F5</color>
+    <color name="color_line">#F5F5F5</color>
+
+    <color name="color_3">#333333</color>
+    <color name="color_blue">#0188FB</color>
+
+    <!-- 状态栏颜色值-->
+    <color name="color_status_bar">#008577</color>
+</resources>
