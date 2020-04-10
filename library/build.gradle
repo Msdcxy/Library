@@ -59,7 +59,7 @@ uploadArchives {
         pom.project {
             groupId "com.common.lib" // 可以随意取，一般取包名
             artifactId "library" // 可以随意取，一般取库的名字
-            version "1.0.0" // 版本号
+            version "1.0.1" // 版本号
         }
     }
 }
